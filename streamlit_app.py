@@ -11,14 +11,31 @@ If you have any questions, checkout out our [documentation](https://docs.streaml
 [community forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+
+# ==========================================================================
+# Defining equipment classes
 class Boiler:
     def __init__(self, quantity, capacityMBH, turndown, efficiency):
         self.quantity = quantity
         self.capacityMBH = capacityMBH
         self.turndown = turndown  # number in percent. like 10
         self.efficiency = efficiency  # just the number like 81
+        
+class Chiller:
+    def __init__(self, quantity, capacityMBH, turndown):
+        self.quantity = quantity
+        self.capacityMBH = capacityMBH
+        self.turndown = turndown  # number in percent. like 10
 
-
+class Pump:
+    def __init__(self, quantity, HP, MaxGPM, turndown, efficiency):
+        self.quantity = quantity
+        self.HP = HP
+        self.MaxGPM = MaxGPM
+        self.turndown = turndown
+        self.efficiency = efficiency
+        
+        
 TestBoiler = Boiler(1, 7000, 10, 81)
 
 """ Test Boiler Capacity """
