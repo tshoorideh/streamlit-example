@@ -11,6 +11,14 @@ If you have any questions, checkout out our [documentation](https://docs.streaml
 [community forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+class Boiler:
+    def __init__(self, quantity, capacityMBH, turndown, efficiency):
+        self.quantity = quantity
+        self.capacityMBH = capacityMBH
+        self.turndown = turndown  # number in percent. like 10
+        self.efficiency = efficiency  # just the number like 81
 
 
+""" Test Boiler """
 
+TestBoiler = Boiler(1, 7000, 10, 81)
