@@ -19,6 +19,7 @@ class Boiler:
         self.efficiency = efficiency  # just the number like 81
 
 
-""" Test Boiler """
-
 TestBoiler = Boiler(1, 7000, 10, 81)
+
+""" Test Boiler """
+print(TestBoiler)
