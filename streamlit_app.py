@@ -35,8 +35,12 @@ class Pump:
         self.turndown = turndown
         self.efficiency = efficiency
         
-        
+#Assigning values to each equipment, in reality we want to read this form the file.         
 TestBoiler = Boiler(1, 7000, 10, 81)
+CHWP1 = Pump(1, 10, 40, 10, 90)
+TestChiller = Chiller(1, 150, 10)
+
+
 
 """ Test Boiler Capacity """
 'Capacity of Test Boiler is', TestBoiler.capacityMBH
