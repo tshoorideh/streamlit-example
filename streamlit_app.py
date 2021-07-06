@@ -1,11 +1,11 @@
-infrom collections import namedtuple
+import namedtuple
 import altair as alt
 import math
 import pandas as pd
 import streamlit as st
 
 """
-# Defining Classes!
+# Welcome to Streamlit!
 
 Edit `/streamlit_app.py` to customize this app to your heart's DESIRE :heart:
 
