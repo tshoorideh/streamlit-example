@@ -21,5 +21,5 @@ class Boiler:
 
 TestBoiler = Boiler(1, 7000, 10, 81)
 
-""" Test Boiler """
-'TestBoiler'
+""" Test Boiler Capacity """
+'TestBoiler.capacityMBH'
