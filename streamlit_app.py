@@ -39,7 +39,9 @@ class Pump:
 TestBoiler = Boiler(1, 7000, 10, 81)
 CHWP1 = Pump(1, 10, 40, 10, 90)
 TestChiller = Chiller(1, 150, 10)
-
+tons = np.array([200, 180, 160, 140, 120, 100, 80, 60, 48])
+kws = np.array([236.10, 191.70, 157.20, 131.20, 105.70, 80.02, 59.81, 47.39, 41.89])
+n = 6
 
 
 """ Test Boiler Capacity """
